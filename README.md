@@ -1,6 +1,6 @@
 # erc8004-registry-parser
 
-[![Test](https://img.shields.io/github/actions/workflow/status/flowmcp/erc8004-registry-parser/test-on-release.yml)]() ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![Test](https://img.shields.io/github/actions/workflow/status/FlowMCP/erc8004-registry-parser/test-on-push.yml)]() ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 Validator and parser for ERC-8004 Trustless Agent Registration Files. Validates against the spec, classifies URI types, decodes raw event logs, and extracts metadata with comprehensive error reporting.
 
