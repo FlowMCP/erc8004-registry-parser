@@ -1,0 +1,27 @@
+{
+    "name": "erc8004-registry-parser",
+    "version": "0.1.0",
+    "description": "Validator and parser for ERC-8004 Trustless Agent Registration Files. Validates against the spec, classifies URI types, decodes raw event logs, and extracts metadata with comprehensive error reporting.",
+    "main": "./src/index.mjs",
+    "type": "module",
+    "scripts": {
+        "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest --detectOpenHandles",
+        "test:coverage:src": "NODE_OPTIONS='--experimental-vm-modules' npx jest --detectOpenHandles --coverage --collectCoverageFrom='src/**/*.mjs'",
+        "test:file": "NODE_OPTIONS='--experimental-vm-modules' npx jest --detectOpenHandles"
+    },
+    "keywords": [
+        "erc-8004",
+        "trustless-agents",
+        "ethereum",
+        "validator",
+        "mcp",
+        "a2a"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "ethers": "^6.14.0"
+    },
+    "devDependencies": {
+        "jest": "^30.0.5"
+    }
+}
