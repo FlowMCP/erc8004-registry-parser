@@ -22,6 +22,8 @@
         "ethers": "^6.14.0"
     },
     "devDependencies": {
-        "jest": "^30.0.5"
+        "a2a-agent-validator": "github:FlowMCP/a2a-agent-validator#91d360fad6fa9ccdecb007273b61456de37be218",
+        "jest": "^30.0.5",
+        "x402-mcp-validator": "github:FlowMCP/x402-mcp-validator#6095f08ba98f0b69d66a31a9b2ebd3bd7fff0558"
     }
 }
